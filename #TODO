@@ -1,0 +1,16 @@
+- Add docs/architeture.png
+- Implement DQ checks before load into Redshift and store results in S3 (bucket-name/dq-results/ad_spend/)
+    - campaign_id not NULL
+    - spend >= 0
+    - impressions & clicks >= 0
+    - platform (allowed prefix - TT etc.)
+- Implement metadata tracking (Glue or Python?)
+- Load into Redshift
+    - Configure flow for Streaming data
+    - Finish etl flow for batch / api data
+- Configure dbt for Redshift tables
+
+Redshift table names:
+raw_batch_campaign
+raw_api_campaign_perf
+raw_streaming_events

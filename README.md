@@ -21,7 +21,9 @@ The pipeline is designed to be **scalable, reliable, and production-oriented**, 
 - Supports raw, staging and analytics layers
 
 ### Data Quality
-- Run data quality checks in AWS Glue DataBrew (NULL checks, Value range checks eg.)
+- Run data quality checks using **AWS Glue DataBrew**
+- Performs schema validation, null checks, range checks, and value constraints
+- Data quality results are written to S3 and evaluated before loading into Redshift
 
 ### Orchestration
 - **Prefect** orchestrates batch and stream workflows
