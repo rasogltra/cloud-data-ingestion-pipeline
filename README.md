@@ -5,8 +5,6 @@ This project implements a **cloud-based data engineering pipeline** that ingests
 
 The pipeline is designed to be **scalable, reliable, and production-oriented**, enabling analytics teams to track **campaign ad spend, campaign performance, and user engagement** across batch, streaming, and API-driven data sources.
 
---
-
 ## Features
 ### Data Ingestion
 - Batch ingestion of **CSV and JSON files** into **Amazon S3**
@@ -52,6 +50,4 @@ The pipeline is designed to be **scalable, reliable, and production-oriented**, 
 - **Amazon Kinesis Firehose** – real-time streaming ingestion
 - **Amazon Redshift** – cloud data warehouse
 - **dbt** – SQL-based transformations
-- **GitHub Actions** – CI/CD  
-
----
+- **GitHub Actions** – CI/CD 
