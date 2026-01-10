@@ -35,12 +35,12 @@ The pipeline is designed to be **scalable, reliable, and production-oriented**, 
  
 ## Architecture
 **Prefect (Orchestration) ** 
-  → ** Python Ingestion (Batch / API / Streaming)** 
-    → Amazon S3 (Raw Landing Zone)** 
-      → Amazon Glue DataBrew (Data Quality)** 
-        → **Amazon Redshift (Raw Tables)** 
-          → **dbt Transformations** 
-            → Amazon Redshift (BI & Analytics)**
+** Python Ingestion (Batch / API / Streaming)** 
+**Amazon S3 (Raw Landing Zone)** 
+**Amazon Glue DataBrew (Data Quality)** 
+**Amazon Redshift (Raw Tables)** 
+**dbt Transformations** 
+**Amazon Redshift (BI & Analytics)**
 
 ---
 
