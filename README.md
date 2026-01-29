@@ -34,7 +34,7 @@ The pipeline is designed to be **scalable, reliable, and production-oriented**, 
 - Ensures consistent deployment of ingestion and transformation layers
  
 ## Architecture
-→ **Prefect (Orchestration)** 
+**Prefect (Orchestration)** 
 → **Python Ingestion (Batch / API / Streaming)** 
 → **Amazon S3 (Raw Landing Zone)** 
 → **AWS Glue DataBrew (Data Quality)** 
